@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hacker-space-291818",
+  "private_key_id": "8406a1320317a32114bacf0027a58d1056fd4a98",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDA17Bz4oPojxod\n2eU0ZlIqPk+5ecTiw0d63ycsbkwRtu0je42O1nwp0U2jXci6r4ZdnspE6orRF+ci\n7ZIU2kYu34DUqe+N6PI9yJ/bir3ia4h06eqLpvkDmZLcV+OIPLZOZp08SyHrAxad\npc4x3+MPcpXTc9s0xonee2ptJbOHYQUihAZHMx6UCY7odEhs4jc1nf9jY9AelFs+\npNmFqw4JB/K3J+vM8g4G5Jcm/+XJQDjlRRhVc7LW+4UnBkPrZ8G7TMKFp10nNzbI\nC96QI4Xrg2gsUlKPonYYd11ucVoT1D9Pa5BPYlJQBafDLGnD6CviBOpzl7eeFgQV\nIao0qcQVAgMBAAECggEAGxxXmLsgG0o+/DJdaEP4SisPbz5gwRZ+Dpafvb3V4Oms\nJgBhMtMRipl7xjtRlHlHtRK1UgH9OQ8Ytg7bKiZTlpRiWsN3Q6abo7b4TlePgWzn\ntrQJ/s8fE/P7sxGCEe2jHZuMgGT5pD3/aHNebSGSHOJZkOwpRZ6h1E7ac/TIbAAn\nl/w89m3LvqgTPUG6g8uHFBXpbuO/FuQFLwHpbNXKAssokflJpiJ96/7W6UWtUcVz\n+PQtq8GfqnAluisFYadLkavuNvHkYtYWfhf4EdGHikTkUXiNxCAZiluNWdidmQOS\no5NP0YYohBpSVVJ2O7QnnMGw3CcK15uOfyhtvV+QMwKBgQDxBFAsYfnSSByMW8/5\nQwyQJ5ztNXL4pVXS5gLCZFqMaTJc3gcFbgxgfcu8y3S8ZM5hOOfrXajtrb652u/m\nRdPHN4joEiC+C4Qi34glAuUD/8FroxzeYegvFg3kqp7mSwaMTcoA2/6+G4KQ+b9o\nGr3/u8usyimvRjscF4s9zKjTOwKBgQDM1LN/kxjeJJ1WpXR7sFB3mCAQpJQ/aidf\nGSCOnTB5YjrE9FkiSribx/Q/lxzko5fYlDNQSO5PS0eZGCLFRGv5tbkag4b5OTje\nap7PmvQWpb2bnFexULL+NoxvCvsv5rk7KghFj2zNcxNBQK+iVrN2/dRHmXS6n50N\nnqzOsDyw7wKBgAeid1ewktVSa3UWw3PF5/P5DUOGWen+csWHe7bkrumbu3itn9NQ\nNRwpX/bPCxecqdzyjIYsJVnCEzSX9tl4hMjevXt8d4UNoFXqdsmVWePSijH6rMNu\nnog/TplbvkTVQ5PWMvvr/BnRjUVCZAnMLxCWxlDm5oMi2mR9am++t+pZAoGAP0fL\nOLOiMCcRsM4nAXuEMJ5/8YRXBIxwI3Io28Z2TlnpnCV9UBnTlNUegXLXC0/7Pn7y\np3AQp9CzCvoo69bqoNfimu1diquCBTzdWXgexsxnmqafdPlggycpFblHxxG50ix3\nJ75at9JAdZ1dZYLxqOZcac5gALQFGksWSjiqV2MCgYATsTtGErfuANflutKYJmVG\no6s7/TaT0UFClpiPLlbyIh8BYALDXV5Pz6PhpIX8MsK2L2uCb06P5xmoMqg9boJ5\nRtoMZ6x+Ll0MLkvLb9K5vpzzJ147neZ+2TM4kIlahltzHvqLSTsl7D2At9WR+Rws\nZ17lWOQKvdMOLzUBTNp00Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "hacker-space@hacker-space-291818.iam.gserviceaccount.com",
+  "client_id": "109054458763108349411",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hacker-space%40hacker-space-291818.iam.gserviceaccount.com"
+}

@@ -1,0 +1,115 @@
+<!--This is the Master html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hacker friend</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!--this is the jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--this is the bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <!-- Semantic ui -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+    <!-- moment.js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
+
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="top-bar text-center">
+                <img class="logo" src="./images/Attachment-4.png">
+                <p class="navBarText">HackerSpace</p>
+            </div>
+            <div class="ui icon input row">
+                <div id="hackerSearchBtn" class="ui search animated button" tabindex="0">
+                    <div class="visible content">Hack</div>
+                    <div class="hidden content">
+                        <i class="right arrow icon"></i>
+                    </div>
+                </div>
+                <input id="hackerInput" type="text" placeholder="Search...">
+            </div>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu row" id="menuText">
+                <li class="col-6"><a class="navBarText logout" href="/members"><i class="fas fa-user"></i>Profile</a></li>
+                <li class="col-6"><a class="navBarText logout" href="/logout"><i class="fas fa-sign-in-alt"></i>Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <body>
+        <!-- Profile Info -->
+        <!-- Start of the jumbotron-->
+        <div class="jumbotron jumbotron-fluid" style="
+              background-image: url(https://images.unsplash.com/photo-1592609931095-54a2168ae893?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+              background-size: 100%;
+              height: 20rem;
+            ">
+            <img src="" class="friendProfile">
+
+            </img>
+        </div>
+        <!-- This ist he end of the jumbotron-->
+
+        <!-- Start of the main container-->
+        <div id="main-container" class="row">
+            <!-- Personal information about the user-->
+            <div id="friendUserInfo" class="card user-card mx-auto col-4">
+                <h1 id="friendName">User</h1>
+                <hr />
+                <ul>
+                    <li>Email: <span id="friendEmail"></span></li>
+                    <li>City: <span id="friendCity"></span></li>
+                    <li>Technology Stack: <span id="friendTechnology"></span></li>
+                    <li>Github: <span id="friendGithub"></span></li>
+                    <li>LinkedIn: <span id="friendLinkedin"></span></li>
+                </ul>
+            </div>
+            <!-- End of personal information-->
+
+            <!-- Code that the user will provide section-->
+            <!-- Form to write code container -->
+            <div id="friendProjectsContainer" class="card user-card mx-auto col-7">
+                <h1>Projects</h1>
+                <hr />
+                <div id="friendProfile">
+
+                </div>
+            </div>
+
+            <div id="friendCodeContainerWork" class="card user-card mx-auto col-10">
+            
+            </div>
+            <!--End of the code form section -->
+
+            <!--Section where the projects are displayed-->
+            
+            <!-- Container where the code is displayed and rendered -->
+        </div>
+        <!-- End of the main container  -->
+
+    </body>
+
+    <!--this is our personal js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/friend.js"></script>
+</body>
+
+</html>
